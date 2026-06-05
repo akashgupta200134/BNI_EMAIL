@@ -1,0 +1,159 @@
+2026-06-04 14:31:13 | INFO     | ============================================================
+2026-06-04 14:31:13 | INFO     | Email Campaign Started
+2026-06-04 14:31:13 | INFO     | Dry Run: False
+2026-06-04 14:31:13 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 14:31:13 | INFO     | ============================================================
+2026-06-04 14:31:13 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 14:31:28 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 14:31:33 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 14:32:48 | INFO     | SENT | Akash Gupta | akash.gupta@dextero.in
+2026-06-04 14:34:20 | INFO     | SENT | Mitali | mitali.araj@dextero.in
+2026-06-04 14:35:48 | INFO     | SENT | Yashikha | yashika.sharma@dextero.in
+2026-06-04 14:37:22 | INFO     | SENT | Sahil Shaikh | sahil.shaikh@dextero.in
+2026-06-04 14:37:24 | INFO     | Session complete. Total sent today: 4
+2026-06-04 15:19:07 | INFO     | ============================================================
+2026-06-04 15:19:07 | INFO     | Email Campaign Started
+2026-06-04 15:19:07 | INFO     | Dry Run: False
+2026-06-04 15:19:07 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 15:19:07 | INFO     | ============================================================
+2026-06-04 15:19:07 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 15:19:20 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 15:19:24 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 15:19:41 | WARNING  | Campaign interrupted by user.
+2026-06-04 15:19:41 | INFO     | Session complete. Total sent today: 4
+2026-06-04 15:22:14 | INFO     | ============================================================
+2026-06-04 15:22:14 | INFO     | Email Campaign Started
+2026-06-04 15:22:14 | INFO     | Dry Run: False
+2026-06-04 15:22:14 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 15:22:14 | INFO     | ============================================================
+2026-06-04 15:22:14 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 15:22:28 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 15:22:31 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 15:23:10 | WARNING  | Campaign interrupted by user.
+2026-06-04 15:23:10 | INFO     | Session complete. Total sent today: 4
+2026-06-04 15:24:02 | INFO     | ============================================================
+2026-06-04 15:24:02 | INFO     | Email Campaign Started
+2026-06-04 15:24:02 | INFO     | Dry Run: False
+2026-06-04 15:24:02 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 15:24:02 | INFO     | ============================================================
+2026-06-04 15:24:02 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 15:24:11 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 15:24:13 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 15:25:24 | INFO     | SENT | Mitali | mitali.araj@dextero.in
+2026-06-04 15:27:20 | ERROR    | Unexpected error in main
+Traceback (most recent call last):
+  File "C:\Users\Akash\Downloads\outlook_emailer\main.py", line 92, in main
+    sender.run(pending, subject, template)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akash\Downloads\outlook_emailer\core\email_sender.py", line 79, in run
+    self.excel.save()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Akash\Downloads\outlook_emailer\utils\excel_handler.py", line 33, in save
+    self.wb.save(self.filepath)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Akash\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Akash\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Akash\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py", line 1453, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Akash\\Downloads\\outlook_emailer\\data\\email_campaign.xlsx'
+2026-06-04 15:27:21 | INFO     | Session complete. Total sent today: 6
+2026-06-04 15:31:20 | INFO     | ============================================================
+2026-06-04 15:31:20 | INFO     | Email Campaign Started
+2026-06-04 15:31:20 | INFO     | Dry Run: False
+2026-06-04 15:31:20 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 15:31:20 | INFO     | ============================================================
+2026-06-04 15:31:20 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 15:31:30 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 15:31:33 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 15:32:43 | INFO     | SENT | Mitali | mitali.araj@dextero.in
+2026-06-04 15:32:44 | INFO     | Session complete. Total sent today: 7
+2026-06-04 15:33:22 | INFO     | ============================================================
+2026-06-04 15:33:22 | INFO     | Email Campaign Started
+2026-06-04 15:33:22 | INFO     | Dry Run: False
+2026-06-04 15:33:22 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 15:33:22 | INFO     | ============================================================
+2026-06-04 15:33:22 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 15:33:32 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 15:33:35 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 15:34:45 | INFO     | SENT | Sahil Shaikh | sahil.shaikh@dextero.in
+2026-06-04 15:34:45 | INFO     | Session complete. Total sent today: 8
+2026-06-04 16:15:16 | INFO     | ============================================================
+2026-06-04 16:15:16 | INFO     | Email Campaign Started
+2026-06-04 16:15:16 | INFO     | Dry Run: False
+2026-06-04 16:15:16 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 16:15:16 | INFO     | ============================================================
+2026-06-04 16:15:16 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 16:15:47 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 16:15:50 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 16:16:52 | WARNING  | Campaign interrupted by user.
+2026-06-04 16:16:52 | INFO     | Session complete. Total sent today: 8
+2026-06-04 16:19:02 | INFO     | ============================================================
+2026-06-04 16:19:02 | INFO     | Email Campaign Started
+2026-06-04 16:19:02 | INFO     | Dry Run: False
+2026-06-04 16:19:02 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 16:19:02 | INFO     | ============================================================
+2026-06-04 16:19:02 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 16:19:14 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 16:19:16 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 16:19:33 | WARNING  | Campaign interrupted by user.
+2026-06-04 16:19:33 | INFO     | Session complete. Total sent today: 8
+2026-06-04 16:32:43 | INFO     | ============================================================
+2026-06-04 16:32:43 | INFO     | Email Campaign Started
+2026-06-04 16:32:43 | INFO     | Dry Run: False
+2026-06-04 16:32:43 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 16:32:43 | INFO     | ============================================================
+2026-06-04 16:32:43 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 16:32:55 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 16:32:59 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 16:33:27 | WARNING  | Campaign interrupted by user.
+2026-06-04 16:33:27 | INFO     | Session complete. Total sent today: 8
+2026-06-04 16:39:33 | INFO     | ============================================================
+2026-06-04 16:39:33 | INFO     | Email Campaign Started
+2026-06-04 16:39:33 | INFO     | Dry Run: False
+2026-06-04 16:39:33 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 16:39:33 | INFO     | ============================================================
+2026-06-04 16:39:33 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 16:39:45 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 16:39:48 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 16:40:56 | INFO     | SENT | Mitali | mitali.araj@dextero.in
+2026-06-04 16:40:57 | INFO     | Session complete. Total sent today: 9
+2026-06-04 16:43:53 | INFO     | ============================================================
+2026-06-04 16:43:53 | INFO     | Email Campaign Started
+2026-06-04 16:43:53 | INFO     | Dry Run: False
+2026-06-04 16:43:53 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 16:43:53 | INFO     | ============================================================
+2026-06-04 16:43:53 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 16:44:40 | INFO     | ============================================================
+2026-06-04 16:44:40 | INFO     | Email Campaign Started
+2026-06-04 16:44:40 | INFO     | Dry Run: False
+2026-06-04 16:44:40 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 16:44:40 | INFO     | ============================================================
+2026-06-04 16:44:40 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 16:44:51 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 16:44:53 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 16:46:05 | INFO     | SENT | Mitali | mitali.araj@dextero.in
+2026-06-04 16:46:07 | INFO     | Session complete. Total sent today: 10
+2026-06-04 16:55:22 | INFO     | ============================================================
+2026-06-04 16:55:22 | INFO     | Email Campaign Started
+2026-06-04 16:55:22 | INFO     | Dry Run: False
+2026-06-04 16:55:22 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 16:55:22 | INFO     | ============================================================
+2026-06-04 16:55:22 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 16:55:33 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 16:55:36 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 16:56:51 | INFO     | SENT | Mitali | mitali.araj@dextero.in
+2026-06-04 16:56:52 | INFO     | Session complete. Total sent today: 11
+2026-06-04 17:06:25 | INFO     | ============================================================
+2026-06-04 17:06:25 | INFO     | Email Campaign Started
+2026-06-04 17:06:25 | INFO     | Dry Run: False
+2026-06-04 17:06:25 | INFO     | Excel File: C:\Users\Akash\Downloads\outlook_emailer\data\email_campaign.xlsx
+2026-06-04 17:06:25 | INFO     | ============================================================
+2026-06-04 17:06:25 | INFO     | Credentials loaded for: akash.gupta@dextero.in
+2026-06-04 17:06:36 | INFO     | Dismissed 'Stay signed in?' prompt
+2026-06-04 17:06:39 | INFO     | Logged in as akash.gupta@dextero.in
+2026-06-04 17:07:40 | INFO     | SENT | Mitali | mitali.araj@dextero.in
+2026-06-04 17:07:41 | INFO     | Session complete. Total sent today: 12

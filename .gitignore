@@ -1,0 +1,4 @@
+# Credentials — NEVER commit this
+.env
+
+
